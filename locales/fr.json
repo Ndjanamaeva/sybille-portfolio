@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "skills": "Compétences",
+    "education": "Formation",
+    "projects": "Projets",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Software Engineer & UI/UX Designer spécialisée dans les applications web et mobiles à fort impact",
+    "brandingStatement": "Je conçois et développe des solutions numériques performantes, de l'idée au déploiement.",
+    "status": "Disponible pour de nouvelles opportunités",
+    "cta": {
+      "downloadCV": "Télécharger le CV",
+      "viewProjects": "Voir mes Projets",
+      "contact": "Me Contacter",
+      "discuss": "Discutons de votre Projet"
+    },
+    "kpis": {
+      "experience": "Années d'Expérience",
+      "projects": "Projets Réalisés",
+      "delivery": "Respect des Délais",
+      "satisfaction": "Satisfaction Utilisateur"
+    }
+  },
+  "about": {
+    "title": "À Propos",
+    "subtitle": "Passionnée par la création de solutions numériques qui font la différence",
+    "intro": "Je suis Software Engineer et UI/UX Designer, passionnée par la création d'expériences numériques intuitives et performantes. Avec une expertise couvrant le développement web et mobile, je transforme des idées complexes en solutions élégantes et centrées sur l'utilisateur.",
+    "vision": "Ma vision est de mettre la technologie au service de la résolution de problèmes réels et de contribuer à la transformation digitale, notamment en développant des solutions innovantes pour les services publics et les entreprises.",
+    "values": {
+      "title": "Valeurs Fondamentales",
+      "excellence": {
+        "title": "Excellence Technique",
+        "description": "Engagement à écrire un code propre et maintenable tout en restant à jour avec les dernières technologies"
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "Esprit d'équipe qui valorise la communication et le partage des connaissances"
+      },
+      "creativity": {
+        "title": "Créativité",
+        "description": "Apporter des solutions innovantes aux défis complexes grâce au design thinking"
+      },
+      "responsibility": {
+        "title": "Responsabilité",
+        "description": "Tenir mes engagements et assumer la responsabilité des résultats des projets"
+      }
+    },
+    "motivation": {
+      "title": "Ce qui me Motive",
+      "impact": "Créer un impact réel grâce à la technologie",
+      "simplicity": "Transformer des idées complexes en solutions simples et élégantes",
+      "transformation": "Contribuer à la transformation digitale des services publics et solutions essentielles",
+      "learning": "Apprentissage continu et veille technologique"
+    }
+  },
+  "skills": {
+    "title": "Compétences & Expertise",
+    "subtitle": "Une boîte à outils complète pour créer des solutions numériques modernes",
+    "categories": {
+      "uiux": "Design UI/UX",
+      "frontend": "Développement Frontend",
+      "backend": "Développement Backend",
+      "mobile": "Développement Mobile",
+      "database": "Bases de Données",
+      "other": "Autres Compétences"
+    }
+  },
+  "education": {
+    "title": "Formation & Études",
+    "subtitle": "Fondations académiques pour l'excellence technique"
+  },
+  "projects": {
+    "title": "Projets Phares",
+    "subtitle": "Solutions concrètes avec impact mesurable",
+    "role": "Rôle",
+    "objective": "Objectif",
+    "actions": "Actions & Mise en Œuvre",
+    "results": "Résultats & Impact",
+    "keyMetrics": "Indicateurs Clés",
+    "technologies": "Technologies",
+    "viewDemo": "Voir la Démo",
+    "viewCode": "Voir le Code"
+  },
+  "impact": {
+    "title": "Impact Global & Métriques",
+    "subtitle": "Résultats mesurables sur l'ensemble des projets",
+    "metrics": {
+      "experienceYears": "Années d'Expérience",
+      "projectsCompleted": "Projets Complétés",
+      "onTimeDelivery": "Respect des Délais",
+      "userSatisfaction": "Satisfaction Utilisateur",
+      "userTimeSaved": "Gain de Temps Utilisateur",
+      "processAutomation": "Automatisation des Processus",
+      "domainsCovered": "Domaines Couverts"
+    },
+    "domains": {
+      "title": "Domaines d'Expertise",
+      "web": "Développement Web",
+      "mobile": "Applications Mobiles",
+      "uiux": "Design UI/UX",
+      "automation": "Automation & Chatbots"
+    }
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "subtitle": "Retours de collaborateurs et clients"
+  },
+  "services": {
+    "title": "Services & Freelance",
+    "subtitle": "Solutions complètes pour vos besoins numériques",
+    "uiux": {
+      "title": "Design UI/UX",
+      "description": "Création d'interfaces belles et centrées sur l'utilisateur pour applications web et mobiles"
+    },
+    "frontend": {
+      "title": "Développement Frontend",
+      "description": "Construction d'applications web responsive et performantes avec des technologies modernes"
+    },
+    "backend": {
+      "title": "Développement Backend",
+      "description": "Développement de solutions serveur robustes et d'APIs"
+    },
+    "mobile": {
+      "title": "Développement Mobile",
+      "description": "Création d'applications mobiles multiplateformes avec Flutter"
+    },
+    "prototyping": {
+      "title": "Prototypage",
+      "description": "Prototypage rapide et design systems avec Figma"
+    },
+    "digitalization": {
+      "title": "Transformation Digitale",
+      "description": "Automatisation des processus et modernisation des workflows"
+    },
+    "availability": {
+      "title": "Disponibilité",
+      "status": "Disponible",
+      "start": "Démarrage Immédiat",
+      "response": "Temps de Réponse",
+      "location": "Localisation",
+      "remote": "Remote Possible",
+      "types": "Types de Contrat",
+      "typesValue": "CDI / Freelance / Mission"
+    },
+    "cta": {
+      "quote": "Demander un Devis",
+      "call": "Planifier un Appel",
+      "discuss": "Discutons de votre Projet"
+    }
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "subtitle": "Construisons ensemble quelque chose de formidable",
+    "form": {
+      "name": "Votre Nom",
+      "email": "Adresse Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "send": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès ! Je vous répondrai bientôt.",
+      "error": "Échec de l'envoi. Veuillez réessayer ou m'envoyer un email directement."
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Téléphone",
+      "location": "Localisation",
+      "github": "GitHub"
+    },
+    "social": {
+      "title": "Connectez-vous avec moi",
+      "subtitle": "Suivez-moi sur les réseaux sociaux et découvrez mon travail"
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés",
+    "builtWith": "Développé avec Next.js, TypeScript & Tailwind CSS"
+  },
+  "common": {
+    "readMore": "Lire Plus",
+    "readLess": "Lire Moins",
+    "learnMore": "En Savoir Plus",
+    "viewAll": "Voir Tout"
+  }
+}

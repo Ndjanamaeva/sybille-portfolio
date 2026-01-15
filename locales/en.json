@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "education": "Education",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Software Engineer & UI/UX Designer specializing in high-impact web and mobile applications",
+    "brandingStatement": "I design and build reliable, user-centered digital solutions from concept to deployment.",
+    "status": "Available for new opportunities",
+    "cta": {
+      "downloadCV": "Download CV",
+      "viewProjects": "View Projects",
+      "contact": "Contact Me",
+      "discuss": "Let's Discuss Your Project"
+    },
+    "kpis": {
+      "experience": "Years Experience",
+      "projects": "Projects Completed",
+      "delivery": "On-Time Delivery",
+      "satisfaction": "User Satisfaction"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Passionate about creating digital solutions that make a difference",
+    "intro": "I'm a Software Engineer and UI/UX Designer with a passion for crafting intuitive, high-performance digital experiences. With expertise spanning web and mobile development, I transform complex ideas into elegant, user-friendly solutions.",
+    "vision": "My vision is to leverage technology to solve real-world problems and contribute to digital transformation, particularly in developing innovative solutions for public services and businesses.",
+    "values": {
+      "title": "Core Values",
+      "excellence": {
+        "title": "Technical Excellence",
+        "description": "Committed to writing clean, maintainable code and staying updated with the latest technologies"
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "Strong team player who values communication and knowledge sharing"
+      },
+      "creativity": {
+        "title": "Creativity",
+        "description": "Bringing innovative solutions to complex challenges through design thinking"
+      },
+      "responsibility": {
+        "title": "Responsibility",
+        "description": "Delivering on commitments and taking ownership of project outcomes"
+      }
+    },
+    "motivation": {
+      "title": "What Drives Me",
+      "impact": "Creating real impact through technology",
+      "simplicity": "Transforming complex ideas into simple, elegant solutions",
+      "transformation": "Contributing to digital transformation in public services and essential solutions",
+      "learning": "Continuous learning and staying at the forefront of technology"
+    }
+  },
+  "skills": {
+    "title": "Skills & Expertise",
+    "subtitle": "A comprehensive toolkit for building modern digital solutions",
+    "categories": {
+      "uiux": "UI/UX Design",
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "mobile": "Mobile Development",
+      "database": "Databases",
+      "other": "Other Skills"
+    }
+  },
+  "education": {
+    "title": "Education & Training",
+    "subtitle": "Academic foundation for technical excellence"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Real-world solutions delivering measurable impact",
+    "role": "Role",
+    "objective": "Objective",
+    "actions": "Actions & Implementation",
+    "results": "Results & Impact",
+    "keyMetrics": "Key Metrics",
+    "technologies": "Technologies",
+    "viewDemo": "View Demo",
+    "viewCode": "View Code"
+  },
+  "impact": {
+    "title": "Global Impact & Metrics",
+    "subtitle": "Measurable results across all projects",
+    "metrics": {
+      "experienceYears": "Years of Experience",
+      "projectsCompleted": "Projects Completed",
+      "onTimeDelivery": "On-Time Delivery",
+      "userSatisfaction": "User Satisfaction",
+      "userTimeSaved": "User Time Saved",
+      "processAutomation": "Process Automation",
+      "domainsCovered": "Domains Covered"
+    },
+    "domains": {
+      "title": "Areas of Expertise",
+      "web": "Web Development",
+      "mobile": "Mobile Apps",
+      "uiux": "UI/UX Design",
+      "automation": "Automation & Chatbots"
+    }
+  },
+  "testimonials": {
+    "title": "What People Say",
+    "subtitle": "Feedback from collaborators and clients"
+  },
+  "services": {
+    "title": "Services & Freelance",
+    "subtitle": "Comprehensive solutions for your digital needs",
+    "uiux": {
+      "title": "UI/UX Design",
+      "description": "Creating beautiful, user-centered interfaces for web and mobile applications"
+    },
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Building responsive, performant web applications with modern technologies"
+    },
+    "backend": {
+      "title": "Backend Development",
+      "description": "Developing robust server-side solutions and APIs"
+    },
+    "mobile": {
+      "title": "Mobile Development",
+      "description": "Creating cross-platform mobile applications with Flutter"
+    },
+    "prototyping": {
+      "title": "Prototyping",
+      "description": "Rapid prototyping and design systems with Figma"
+    },
+    "digitalization": {
+      "title": "Digital Transformation",
+      "description": "Automating processes and modernizing workflows"
+    },
+    "availability": {
+      "title": "Availability",
+      "status": "Available",
+      "start": "Immediate Start",
+      "response": "Response Time",
+      "location": "Location",
+      "remote": "Remote Possible",
+      "types": "Contract Types",
+      "typesValue": "Full-time / Freelance / Project-based"
+    },
+    "cta": {
+      "quote": "Request a Quote",
+      "call": "Schedule a Call",
+      "discuss": "Let's Discuss Your Project"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's build something great together",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! I'll get back to you soon.",
+      "error": "Failed to send message. Please try again or email me directly."
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "github": "GitHub"
+    },
+    "social": {
+      "title": "Connect With Me",
+      "subtitle": "Follow me on social media and check out my work"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "builtWith": "Built with Next.js, TypeScript & Tailwind CSS"
+  },
+  "common": {
+    "readMore": "Read More",
+    "readLess": "Read Less",
+    "learnMore": "Learn More",
+    "viewAll": "View All"
+  }
+}
