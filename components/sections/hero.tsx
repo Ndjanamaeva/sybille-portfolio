@@ -32,58 +32,58 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-teal-500/10 dark:from-cyan-900/20 dark:via-blue-900/10 dark:to-teal-900/20" />
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="mb-6 flex flex-col items-center"
-          >
+        {/* Top section with avatar and text on sides */}
+        <div className="max-w-6xl mx-auto mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+            {/* Left side - Avatar */}
             <motion.div
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="mb-6"
+              className="flex justify-center"
             >
-              <Avatar className="h-32 w-32 border-4 border-cyan-500/20">
+              <Avatar className="h-64 w-64 md:h-80 md:w-80 border-4 border-cyan-500/20">
                 <AvatarImage src="/profile.jpg" alt={personalInfo.name} />
-                <AvatarFallback className="text-4xl bg-gradient-to-br from-cyan-500 to-blue-600 text-white">
+                <AvatarFallback className="text-8xl md:text-9xl bg-gradient-to-br from-cyan-500 to-blue-600 text-white">
                   {personalInfo.name.split(' ').map(n => n[0]).join('').slice(0, 2)}
                 </AvatarFallback>
               </Avatar>
             </motion.div>
 
-            <motion.span
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
+            {/* Right side - Text content */}
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="inline-block px-4 py-2 rounded-full bg-cyan-500/10 text-cyan-600 dark:text-cyan-400 text-sm font-medium mb-4"
+              className="text-left md:text-left"
             >
-              {t.hero.status}
-            </motion.span>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-cyan-600 via-blue-600 to-teal-600 bg-clip-text text-transparent">
+                {personalInfo.name}
+              </h1>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-cyan-600 via-blue-600 to-teal-600 bg-clip-text text-transparent">
-              {personalInfo.name}
-            </h1>
-          </motion.div>
+              <motion.h2
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                className="text-xl md:text-2xl lg:text-3xl font-semibold text-foreground/90 mb-4"
+              >
+                {t.hero.title}
+              </motion.h2>
 
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-2xl md:text-3xl lg:text-4xl font-semibold text-foreground/90 mb-6"
-          >
-            {t.hero.title}
-          </motion.h2>
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+                className="text-base md:text-lg text-muted-foreground"
+              >
+                {t.hero.brandingStatement}
+              </motion.p>
+            </motion.div>
+          </div>
+        </div>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto"
-          >
-            {t.hero.brandingStatement}
-          </motion.p>
+        {/* Bottom centered section */}
+        <div className="max-w-4xl mx-auto text-center">
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -91,9 +91,11 @@ export function HeroSection() {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="flex flex-wrap gap-4 justify-center mb-16"
           >
-            <Button size="lg" className="gap-2 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700">
-              <Download className="h-5 w-5" />
-              {t.hero.cta.downloadCV}
+            <Button asChild size="lg" className="gap-2 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700">
+              <a href="/SYBILLE%20CV.pdf" download>
+                <Download className="h-5 w-5" />
+                {t.hero.cta.downloadCV}
+              </a>
             </Button>
             <Button size="lg" variant="outline" className="gap-2" onClick={() => scrollToSection('projects')}>
               {t.hero.cta.viewProjects}

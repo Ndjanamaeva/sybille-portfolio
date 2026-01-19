@@ -20,8 +20,7 @@ export function ContactSection() {
   const contactInfo = [
     { icon: Mail, label: t.contact.info.email, value: personalInfo.email, href: `mailto:${personalInfo.email}` },
     { icon: Phone, label: t.contact.info.phone, value: personalInfo.phone, href: `tel:${personalInfo.phone}` },
-    { icon: MapPin, label: t.contact.info.location, value: personalInfo.location },
-    { icon: Github, label: t.contact.info.github, value: 'GitHub', href: personalInfo.github }
+    { icon: MapPin, label: t.contact.info.location, value: personalInfo.location }
   ];
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {

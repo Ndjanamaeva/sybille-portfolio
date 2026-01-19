@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import { useI18n } from '@/lib/i18n-context';
 import { LanguageToggle } from '@/components/language-toggle';
-import { ThemeToggle } from '@/components/theme-toggle';
 import { Button } from '@/components/ui/button';
 
 export function Navigation() {
@@ -57,16 +56,8 @@ export function Navigation() {
         }`}
       >
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-20">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              className="text-xl font-bold bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent"
-            >
-              Sybille N. E. Maeva
-            </motion.div>
-
-            <div className="hidden md:flex items-center gap-8">
+          <div className="flex items-center justify-center h-20 relative">
+            <div className="flex items-center gap-8">
               {[
                 { key: 'home', id: 'hero' },
                 { key: 'about', id: 'about' },
@@ -91,9 +82,8 @@ export function Navigation() {
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
-              className="flex items-center gap-2"
+              className="absolute right-0 flex items-center gap-2"
             >
-              <ThemeToggle />
               <LanguageToggle />
             </motion.div>
           </div>

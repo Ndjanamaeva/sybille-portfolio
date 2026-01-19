@@ -1,11 +1,11 @@
 export const personalInfo = {
-  name: "Sybille Ndjana Ebogo Maeva",
-  email: "sybillemaeva@example.com",
-  phone: "+237 XXX XXX XXX",
+  name: "NDJANA EBOGO SYBILLE MAEVA",
+  email: "ndjanaebogosybille@gmail.com",
+  phone: "+237691001755",
   location: "Yaoundé, Cameroon",
-  github: "https://github.com/sybillemaeva",
-  linkedin: "https://linkedin.com/in/sybillemaeva",
-  figma: "https://www.figma.com/@sybillemaeva",
+  github: "https://github.com/Ndjanamaeva",
+  linkedin: "https://www.linkedin.com/in/sybille-maeva-ndjana-ebogo-a44042322/",
+  figma: "https://www.figma.com/files/team/1351896971819028182/project/215999673/Team-project?fuid=1351896969300284744",
   availability: "available",
   responseTime: "24-48h"
 };
@@ -57,8 +57,15 @@ export const education = [
     degree: "GCE A-Level Sciences",
     institution: "Queensway International College",
     location: "Cameroon",
-    period: "Completed",
+    period: "2016 - 2018",
     description: "Focus on sciences and technology"
+  },
+  {
+    degree: "GCE O-Level Sciences",
+    institution: "Queensway International College",
+    location: "Cameroon",
+    period: "2011 - 2016",
+    description: "Foundation in sciences and general education"
   }
 ];
 
