@@ -11,7 +11,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 
 export function ContactSection() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -20,7 +20,7 @@ export function ContactSection() {
   const contactInfo = [
     { icon: Mail, label: t.contact.info.email, value: personalInfo.email, href: `mailto:${personalInfo.email}` },
     { icon: Phone, label: t.contact.info.phone, value: personalInfo.phone, href: `tel:${personalInfo.phone}` },
-    { icon: MapPin, label: t.contact.info.location, value: personalInfo.location }
+    { icon: MapPin, label: t.contact.info.location, value: typeof personalInfo.location === 'string' ? personalInfo.location : personalInfo.location[locale] }
   ];
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {

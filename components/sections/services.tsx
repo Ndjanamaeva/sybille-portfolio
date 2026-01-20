@@ -18,7 +18,7 @@ const iconMap: Record<string, any> = {
 };
 
 export function ServicesSection() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
@@ -125,7 +125,7 @@ export function ServicesSection() {
                 <div>
                   <div className="font-semibold mb-1">{t.services.availability.location}</div>
                   <div className="text-sm text-muted-foreground">
-                    {personalInfo.location} / {t.services.availability.remote}
+                    {typeof personalInfo.location === 'string' ? personalInfo.location : personalInfo.location[locale]} / {t.services.availability.remote}
                   </div>
                 </div>
               </div>

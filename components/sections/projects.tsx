@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 
 export function ProjectsSection() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   const [expandedProjects, setExpandedProjects] = useState<string[]>([]);
@@ -56,10 +56,10 @@ export function ProjectsSection() {
                     <div className="flex items-start justify-between mb-4">
                       <div>
                         <h3 className="text-2xl font-bold mb-2 bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text text-transparent">
-                          {project.title}
+                          {project.title[locale]}
                         </h3>
                         <p className="text-sm text-muted-foreground mb-1">
-                          <span className="font-semibold">{t.projects.role}:</span> {project.role}
+                          <span className="font-semibold">{t.projects.role}:</span> {project.role[locale]}
                         </p>
                         <p className="text-sm text-muted-foreground">
                           {project.period}
@@ -71,7 +71,7 @@ export function ProjectsSection() {
                       <div>
                         <h4 className="font-semibold mb-2 text-cyan-600">{t.projects.objective}</h4>
                         <p className="text-foreground/80 leading-relaxed">
-                          {project.objective}
+                          {project.objective[locale]}
                         </p>
                       </div>
 
@@ -85,7 +85,7 @@ export function ProjectsSection() {
                           <div>
                             <h4 className="font-semibold mb-2 text-cyan-600">{t.projects.actions}</h4>
                             <ul className="list-disc list-inside space-y-1 text-foreground/80">
-                              {project.actions.map((action, idx) => (
+                              {project.actions[locale].map((action, idx) => (
                                 <li key={idx} className="leading-relaxed">{action}</li>
                               ))}
                             </ul>
@@ -94,7 +94,7 @@ export function ProjectsSection() {
                           <div>
                             <h4 className="font-semibold mb-2 text-cyan-600">{t.projects.results}</h4>
                             <ul className="list-disc list-inside space-y-1 text-foreground/80">
-                              {project.results.map((result, idx) => (
+                              {project.results[locale].map((result, idx) => (
                                 <li key={idx} className="leading-relaxed">{result}</li>
                               ))}
                             </ul>
@@ -111,8 +111,8 @@ export function ProjectsSection() {
                                   <div className="text-xl font-bold text-cyan-600">
                                     {typeof value === 'boolean' ? (value ? '✓' : '✗') : value}
                                   </div>
-                                  <div className="text-xs text-muted-foreground capitalize">
-                                    {key.replace(/([A-Z])/g, ' $1').trim()}
+                                  <div className="text-xs text-muted-foreground">
+                                    {t.projects.kpiLabels[key as keyof typeof t.projects.kpiLabels] || key}
                                   </div>
                                 </div>
                               ))}

@@ -83,7 +83,22 @@
     "keyMetrics": "Indicateurs Clés",
     "technologies": "Technologies",
     "viewDemo": "Voir la Démo",
-    "viewCode": "Voir le Code"
+    "viewCode": "Voir le Code",
+    "kpiLabels": {
+      "performanceScore": "Score de Performance",
+      "deviceCompatibility": "Compatibilité Appareils",
+      "userSatisfaction": "Satisfaction Utilisateur",
+      "timeSaved": "Temps Économisé",
+      "userFeedback": "Retours Utilisateurs",
+      "platforms": "Plateformes",
+      "locationAccuracy": "Précision de Localisation",
+      "batteryOptimization": "Optimisation Batterie",
+      "offlineCapability": "Capacité Hors Ligne",
+      "automationRate": "Taux d'Automatisation",
+      "responseTime": "Temps de Réponse",
+      "availability": "Disponibilité",
+      "workloadReduction": "Réduction de Charge"
+    }
   },
   "impact": {
     "title": "Impact Global & Métriques",

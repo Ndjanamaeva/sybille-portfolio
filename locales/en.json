@@ -83,7 +83,22 @@
     "keyMetrics": "Key Metrics",
     "technologies": "Technologies",
     "viewDemo": "View Demo",
-    "viewCode": "View Code"
+    "viewCode": "View Code",
+    "kpiLabels": {
+      "performanceScore": "Performance Score",
+      "deviceCompatibility": "Device Compatibility",
+      "userSatisfaction": "User Satisfaction",
+      "timeSaved": "Time Saved",
+      "userFeedback": "User Feedback",
+      "platforms": "Platforms",
+      "locationAccuracy": "Location Accuracy",
+      "batteryOptimization": "Battery Optimization",
+      "offlineCapability": "Offline Capability",
+      "automationRate": "Automation Rate",
+      "responseTime": "Response Time",
+      "availability": "Availability",
+      "workloadReduction": "Workload Reduction"
+    }
   },
   "impact": {
     "title": "Global Impact & Metrics",

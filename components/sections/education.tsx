@@ -7,7 +7,7 @@ import { useRef } from 'react';
 import { GraduationCap, MapPin, Calendar } from 'lucide-react';
 
 export function EducationSection() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
@@ -74,12 +74,12 @@ export function EducationSection() {
                       </div>
                       <div className="flex items-center gap-2">
                         <MapPin className="h-4 w-4" />
-                        <span>{edu.location}</span>
+                        <span>{typeof edu.location === 'string' ? edu.location : edu.location[locale]}</span>
                       </div>
                     </div>
 
                     <p className="text-foreground/80 leading-relaxed">
-                      {edu.description}
+                      {typeof edu.description === 'string' ? edu.description : edu.description[locale]}
                     </p>
                   </motion.div>
                 </div>
