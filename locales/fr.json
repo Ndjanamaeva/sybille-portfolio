@@ -185,5 +185,100 @@
     "readLess": "Lire Moins",
     "learnMore": "En Savoir Plus",
     "viewAll": "Voir Tout"
+  },
+  "projectsData": {
+    "cenadi": {
+      "title": "Site Web CENADI Cameroon",
+      "role": "Développeur Frontend & Designer UI/UX",
+      "objective": "Concevoir et développer un site web moderne et professionnel pour le Centre National de Numérisation (CENADI) afin de présenter ses initiatives et services de transformation numérique",
+      "actions": [
+        "Menée d'études utilisateur et analyses concurrentielles",
+        "Création d'une conception UI/UX complète dans Figma",
+        "Développement d'un frontend responsive avec React",
+        "Implémentation d'animations et interactions modernes",
+        "Assurance de l'accessibilité et optimisation des performances"
+      ],
+      "results": [
+        "Livraison d'un site web premium et professionnel améliorant la présence numérique de CENADI",
+        "Obtention d'un score Lighthouse 95+",
+        "Amélioration de l'engagement utilisateur avec une navigation intuitive",
+        "Design responsive fonctionnant parfaitement sur tous les appareils"
+      ],
+      "kpis": {
+        "performanceScore": "Score de Performance",
+        "deviceCompatibility": "Compatibilité Appareils",
+        "userSatisfaction": "Satisfaction Utilisateur"
+      }
+    },
+    "ngomna": {
+      "title": "Application Mobile nGomna",
+      "role": "Développeur Principal & Designer UI/UX",
+      "objective": "Développer une application mobile innovante pour connecter les utilisateurs aux services et ressources locaux au Cameroun",
+      "actions": [
+        "Direction du processus complet de conception et développement",
+        "Création d'une conception UI/UX centrée utilisateur avec Figma",
+        "Construction d'une application mobile multiplateforme avec Flutter",
+        "Implémentation de fonctionnalités temps réel et géolocalisation",
+        "Conduite de tests utilisateurs et améliorations itératives"
+      ],
+      "results": [
+        "Lancement réussi d'une application mobile entièrement fonctionnelle",
+        "Livraison d'une expérience utilisateur transparente sur iOS et Android",
+        "Réduction du temps de découverte de services de 30% pour les utilisateurs",
+        "Obtention de 92% d'avis utilisateurs positifs lors des tests"
+      ],
+      "kpis": {
+        "timeSaved": "Gain de Temps",
+        "userFeedback": "Retours Utilisateurs",
+        "platforms": "Plateformes"
+      }
+    },
+    "geolocation": {
+      "title": "Application Flutter de Géolocalisation",
+      "role": "Développeur Mobile",
+      "objective": "Créer une application mobile spécialisée exploitant la technologie GPS pour les services basés sur la localisation",
+      "actions": [
+        "Intégration des APIs GPS et cartographie",
+        "Développement de fonctionnalités de suivi de localisation en temps réel",
+        "Implémentation de capacités hors ligne",
+        "Optimisation de l'utilisation de la batterie et des performances",
+        "Création d'une interface intuitive basée sur la carte"
+      ],
+      "results": [
+        "Construction d'un suivi de localisation fiable avec une précision de 95%",
+        "Optimisation de la consommation de batterie de 40%",
+        "Activation de la fonctionnalité hors ligne pour une meilleure expérience utilisateur",
+        "Livraison de performances fluides sur différents appareils"
+      ],
+      "kpis": {
+        "locationAccuracy": "Précision de Localisation",
+        "batteryOptimization": "Optimisation Batterie",
+        "offlineCapability": "Capacité Hors Ligne"
+      }
+    },
+    "whatsapp": {
+      "title": "Chatbot WhatsApp - Banque ELOGE",
+      "role": "Développeur & Designer de Chatbot",
+      "objective": "Automatiser le service à la clientèle et améliorer le temps de réponse pour les clients bancaires grâce à un chatbot WhatsApp intelligent",
+      "actions": [
+        "Analyse des exigences et points de friction du service à la clientèle",
+        "Conception des flux conversationnels et parcours utilisateur",
+        "Développement du système de réponses automatisées",
+        "Intégration avec les APIs bancaires pour les informations en temps réel",
+        "Tests et affinage des réponses du chatbot"
+      ],
+      "results": [
+        "Automatisation de 40% des demandes clients répétitives",
+        "Réduction du temps de réponse moyen de plusieurs heures à quelques secondes",
+        "Amélioration de la satisfaction client avec un support 24/7",
+        "Réduction significative de la charge de travail de l'équipe d'assistance"
+      ],
+      "kpis": {
+        "automationRate": "Taux d'Automatisation",
+        "responseTime": "Temps de Réponse",
+        "availability": "Disponibilité",
+        "workloadReduction": "Réduction de Charge"
+      }
+    }
   }
 }
