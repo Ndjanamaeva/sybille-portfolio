@@ -22,6 +22,7 @@ export const skills = {
   frontend: [
     { name: "React", level: 85 },
     { name: "Next.js", level: 80 },
+    { name: "Vue.js", level: 75 },
     { name: "JavaScript", level: 85 },
     { name: "TypeScript", level: 75 },
     { name: "Tailwind CSS", level: 80 },
@@ -44,7 +45,8 @@ export const skills = {
     { name: "Git & Version Control", level: 85 },
     { name: "Project Management", level: 80 },
     { name: "Software Support", level: 90 },
-    { name: "Network & Security Basics", level: 70 }
+    { name: "Network & Security Basics", level: 70 },
+    { name: "English Proficiency", level: 95 }
   ]
 };
 
