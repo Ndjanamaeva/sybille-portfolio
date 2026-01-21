@@ -2,9 +2,8 @@
 
 import { motion, useInView } from 'framer-motion';
 import { useI18n } from '@/lib/i18n-context';
-import { globalKPIs } from '@/data/portfolio';
 import { useRef } from 'react';
-import { TrendingUp, Award, Clock, Users, Code, Smartphone, Palette, Bot } from 'lucide-react';
+import { TrendingUp, Code, Smartphone, Palette, Bot } from 'lucide-react';
 
 export function ImpactSection() {
   const { t } = useI18n();
@@ -12,10 +11,6 @@ export function ImpactSection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const metrics = [
-    { icon: TrendingUp, value: globalKPIs.experience, label: t.impact.metrics.experienceYears },
-    { icon: Award, value: globalKPIs.projectsCompleted, label: t.impact.metrics.projectsCompleted },
-    { icon: Clock, value: globalKPIs.onTimeDelivery, label: t.impact.metrics.onTimeDelivery },
-    { icon: Users, value: globalKPIs.userSatisfaction, label: t.impact.metrics.userSatisfaction },
     { icon: TrendingUp, value: '~30%', label: t.impact.metrics.userTimeSaved },
     { icon: Bot, value: '25-40%', label: t.impact.metrics.processAutomation }
   ];

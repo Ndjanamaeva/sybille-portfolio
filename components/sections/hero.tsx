@@ -4,18 +4,11 @@ import { motion } from 'framer-motion';
 import { useI18n } from '@/lib/i18n-context';
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { Download, ArrowRight, Mail, Briefcase } from 'lucide-react';
-import { globalKPIs, personalInfo } from '@/data/portfolio';
+import { Download, ArrowRight, Mail } from 'lucide-react';
+import { personalInfo } from '@/data/portfolio';
 
 export function HeroSection() {
   const { t } = useI18n();
-
-  const kpis = [
-    { value: globalKPIs.experience, label: t.hero.kpis.experience, suffix: '' },
-    { value: globalKPIs.projectsCompleted, label: t.hero.kpis.projects, suffix: '' },
-    { value: globalKPIs.onTimeDelivery, label: t.hero.kpis.delivery, suffix: '' },
-    { value: globalKPIs.userSatisfaction, label: t.hero.kpis.satisfaction, suffix: '' }
-  ];
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -89,7 +82,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="flex flex-wrap gap-4 justify-center mb-16"
+            className="flex flex-wrap gap-4 justify-center"
           >
             <Button asChild size="lg" className="gap-2 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700">
               <a href="/SYBILLE%20CV.pdf" download>
@@ -105,30 +98,6 @@ export function HeroSection() {
               <Mail className="h-5 w-5" />
               {t.hero.cta.contact}
             </Button>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.6 }}
-            className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8"
-          >
-            {kpis.map((kpi, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, scale: 0.5 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5, delay: 0.7 + index * 0.1 }}
-                className="bg-card/50 backdrop-blur-sm rounded-lg p-6 border"
-              >
-                <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent mb-2">
-                  {kpi.value}{kpi.suffix}
-                </div>
-                <div className="text-sm text-muted-foreground">
-                  {kpi.label}
-                </div>
-              </motion.div>
-            ))}
           </motion.div>
         </div>
       </div>
