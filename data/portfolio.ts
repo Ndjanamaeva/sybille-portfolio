@@ -1,3 +1,4 @@
+export { figmaProjects } from "./figma-projects";
 export const personalInfo = {
   name: "NDJANA EBOGO SYBILLE MAEVA",
   email: "ndjanaebogosybille@gmail.com",

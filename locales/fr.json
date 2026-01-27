@@ -195,6 +195,25 @@
     "rights": "Tous droits réservés",
     "builtWith": "Développé avec Next.js, TypeScript & Tailwind CSS"
   },
+  "figma": {
+    "title": "Projets Figma",
+    "subtitle": "Designs et prototypes UI/UX modernes réalisés sur Figma",
+    "viewProject": "Voir sur Figma",
+    "projects": [
+      {
+        "title": "Kit UI du site CENADI",
+        "description": "Un kit UI complet et un design system pour le site web du CENADI Cameroun, avec des mises en page modernes, des composants et les meilleures pratiques d’accessibilité."
+      },
+      {
+        "title": "Design de l’application mobile nGomna",
+        "description": "Design mobile complet pour nGomna, incluant les parcours utilisateurs, wireframes et prototypes haute fidélité pour iOS et Android."
+      },
+      {
+        "title": "UI Portfolio Personnel",
+        "description": "Design de portfolio moderne et responsive, axé sur la clarté visuelle, l’interactivité et l’accessibilité."
+      }
+    ]
+  },
   "common": {
     "readMore": "Lire Plus",
     "readLess": "Lire Moins",
